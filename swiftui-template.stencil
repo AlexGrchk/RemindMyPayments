@@ -1,0 +1,49 @@
+//
+// Do not edit! File generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+//
+
+import SwiftUI
+
+// swiftlint:disable all
+// swiftformat:disable all
+
+{# Documentation for Stencil Template  #}
+{#  - https://github.com/SwiftGen/SwiftGenKit/blob/master/Documentation/Assets.md #}
+{#  - https://github.com/SwiftGen/StencilSwiftKit #}
+{# -- #}
+{# This template is based on `swift5.stencil` #}
+{# https://github.com/SwiftGen/SwiftGen/blob/stable/templates/xcassets/swift5.stencil #}
+
+{% macro imageBlock assets %}
+    {% for asset in assets %}
+        {% if asset.type == "image" %}
+    static let {{asset.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}} = Image("{{asset.value}}")
+        {% elif asset.items %}
+            {% call imageBlock asset.items %}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% macro colorBlock assets %}
+    {% for asset in assets %}
+        {% if asset.type == "color" %}
+    static let {{asset.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}} = Color("{{asset.value}}")
+        {% elif asset.items %}
+            {% call colorBlock asset.items %}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+enum Assets {
+    enum Images {
+        {% for catalog in catalogs %}
+        {% call imageBlock catalog.assets %}
+        {% endfor %}
+    }
+
+    enum Colors {
+        {% for catalog in catalogs %}
+        {% call colorBlock catalog.assets %}
+        {% endfor %}
+    }
+
+}

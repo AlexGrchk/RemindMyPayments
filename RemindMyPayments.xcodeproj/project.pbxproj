@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11363DCC28ABB99100FD0B26 /* PaymentDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11363DCB28ABB99100FD0B26 /* PaymentDetailsScreen.swift */; };
+		11363DCE28ABB9DA00FD0B26 /* PaymentDetailsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11363DCD28ABB9DA00FD0B26 /* PaymentDetailsStore.swift */; };
+		11363DD028ABBB7100FD0B26 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11363DCF28ABBB7100FD0B26 /* String + Extensions.swift */; };
+		11363DD228ABF27A00FD0B26 /* PaymentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11363DD128ABF27A00FD0B26 /* PaymentStore.swift */; };
 		11C46D9428A7BA2200523383 /* RemindMyPaymentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46D9328A7BA2200523383 /* RemindMyPaymentsApp.swift */; };
-		11C46D9628A7BA2200523383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46D9528A7BA2200523383 /* ContentView.swift */; };
-		11C46D9828A7BA2500523383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C46D9728A7BA2500523383 /* Assets.xcassets */; };
-		11C46D9B28A7BA2500523383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C46D9A28A7BA2500523383 /* Preview Assets.xcassets */; };
 		11C46D9D28A7BA2500523383 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46D9C28A7BA2500523383 /* Persistence.swift */; };
 		11C46DA028A7BA2500523383 /* RemindMyPayments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11C46D9E28A7BA2500523383 /* RemindMyPayments.xcdatamodeld */; };
 		11C46DAA28A7BA2600523383 /* RemindMyPaymentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DA928A7BA2600523383 /* RemindMyPaymentsTests.swift */; };
 		11C46DB428A7BA2600523383 /* RemindMyPaymentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DB328A7BA2600523383 /* RemindMyPaymentsUITests.swift */; };
 		11C46DB628A7BA2600523383 /* RemindMyPaymentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DB528A7BA2600523383 /* RemindMyPaymentsUITestsLaunchTests.swift */; };
+		11C46DC428A7BAFF00523383 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 11C46DC328A7BAFF00523383 /* ComposableArchitecture */; };
+		11C46DC728A7BC6400523383 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DC628A7BC6400523383 /* CalendarScreen.swift */; };
+		11C46DCC28A7BFE300523383 /* CalendarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DCB28A7BFE300523383 /* CalendarStore.swift */; };
+		11C46DD028A7CE1200523383 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DCF28A7CE1200523383 /* CalendarView.swift */; };
+		11C46DD328A7D07F00523383 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C46DD228A7D07F00523383 /* Images.xcassets */; };
+		11C46DD528A7D08900523383 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C46DD428A7D08900523383 /* Colors.xcassets */; };
+		11C46DD728A7D09600523383 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11C46DD628A7D09600523383 /* Localizable.strings */; };
+		11C46DDC28A7D22800523383 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DDA28A7D22800523383 /* Strings.swift */; };
+		11C46DDD28A7D22800523383 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DDB28A7D22800523383 /* Assets.swift */; };
+		11C46DDF28A7D6AC00523383 /* Payment + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DDE28A7D6AC00523383 /* Payment + Extensions.swift */; };
+		11C46DE128A7DBDA00523383 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46DE028A7DBDA00523383 /* TextStyle.swift */; };
+		11DECA4928A7F330005214A8 /* CoreDataPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA4828A7F330005214A8 /* CoreDataPublisher.swift */; };
+		11DECA4C28A7FBAE005214A8 /* Collection + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA4B28A7FBAE005214A8 /* Collection + Extension.swift */; };
+		11DECA4E28A802CB005214A8 /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA4D28A802CB005214A8 /* Date + Extensions.swift */; };
+		11DECA5028AB8467005214A8 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA4F28AB8467005214A8 /* UserStorage.swift */; };
+		11DECA5228AB849E005214A8 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5128AB849E005214A8 /* Currency.swift */; };
+		11DECA5528AB855D005214A8 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5428AB855D005214A8 /* SettingsScreen.swift */; };
+		11DECA5728AB8566005214A8 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5628AB8566005214A8 /* SettingsStore.swift */; };
+		11DECA5928AB8D4D005214A8 /* HalfSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5828AB8D4D005214A8 /* HalfSheetView.swift */; };
+		11DECA5C28AB8E57005214A8 /* DatePaymentsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5B28AB8E57005214A8 /* DatePaymentsScreen.swift */; };
+		11DECA5E28AB8E65005214A8 /* DatePaymentsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA5D28AB8E65005214A8 /* DatePaymentsStore.swift */; };
+		11DECA6128AB9AA8005214A8 /* PaymentCreationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA6028AB9AA8005214A8 /* PaymentCreationScreen.swift */; };
+		11DECA6328AB9ABB005214A8 /* PaymentCreationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA6228AB9ABB005214A8 /* PaymentCreationStore.swift */; };
+		11DECA6528ABA41A005214A8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA6428ABA41A005214A8 /* FloatingTextField.swift */; };
+		11DECA6728ABA440005214A8 /* AmountInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA6628ABA440005214A8 /* AmountInputField.swift */; };
+		11DECA6928ABA769005214A8 /* BasicDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECA6828ABA769005214A8 /* BasicDropDown.swift */; };
+		11FDC2A328AD459E0014B895 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDC2A228AD459E0014B895 /* PushNotificationManager.swift */; };
+		C4848E3A14FB56D1409DECC9 /* Pods_RemindMyPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03A0B19FA62B3D9062D2323 /* Pods_RemindMyPayments.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +65,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11363DCB28ABB99100FD0B26 /* PaymentDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsScreen.swift; sourceTree = "<group>"; };
+		11363DCD28ABB9DA00FD0B26 /* PaymentDetailsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsStore.swift; sourceTree = "<group>"; };
+		11363DCF28ABBB7100FD0B26 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		11363DD128ABF27A00FD0B26 /* PaymentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStore.swift; sourceTree = "<group>"; };
 		11C46D9028A7BA2200523383 /* RemindMyPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindMyPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C46D9328A7BA2200523383 /* RemindMyPaymentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMyPaymentsApp.swift; sourceTree = "<group>"; };
-		11C46D9528A7BA2200523383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		11C46D9728A7BA2500523383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11C46D9A28A7BA2500523383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11C46D9C28A7BA2500523383 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		11C46D9F28A7BA2500523383 /* RemindMyPayments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindMyPayments.xcdatamodel; sourceTree = "<group>"; };
 		11C46DA528A7BA2600523383 /* RemindMyPaymentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMyPaymentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +78,35 @@
 		11C46DAF28A7BA2600523383 /* RemindMyPaymentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMyPaymentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C46DB328A7BA2600523383 /* RemindMyPaymentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMyPaymentsUITests.swift; sourceTree = "<group>"; };
 		11C46DB528A7BA2600523383 /* RemindMyPaymentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMyPaymentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11C46DC628A7BC6400523383 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		11C46DCB28A7BFE300523383 /* CalendarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStore.swift; sourceTree = "<group>"; };
+		11C46DCF28A7CE1200523383 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		11C46DD228A7D07F00523383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11C46DD428A7D08900523383 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		11C46DD628A7D09600523383 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		11C46DDA28A7D22800523383 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		11C46DDB28A7D22800523383 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		11C46DDE28A7D6AC00523383 /* Payment + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment + Extensions.swift"; sourceTree = "<group>"; };
+		11C46DE028A7DBDA00523383 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		11DECA4828A7F330005214A8 /* CoreDataPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPublisher.swift; sourceTree = "<group>"; };
+		11DECA4B28A7FBAE005214A8 /* Collection + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection + Extension.swift"; sourceTree = "<group>"; };
+		11DECA4D28A802CB005214A8 /* Date + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
+		11DECA4F28AB8467005214A8 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		11DECA5128AB849E005214A8 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		11DECA5428AB855D005214A8 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		11DECA5628AB8566005214A8 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		11DECA5828AB8D4D005214A8 /* HalfSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetView.swift; sourceTree = "<group>"; };
+		11DECA5B28AB8E57005214A8 /* DatePaymentsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePaymentsScreen.swift; sourceTree = "<group>"; };
+		11DECA5D28AB8E65005214A8 /* DatePaymentsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePaymentsStore.swift; sourceTree = "<group>"; };
+		11DECA6028AB9AA8005214A8 /* PaymentCreationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCreationScreen.swift; sourceTree = "<group>"; };
+		11DECA6228AB9ABB005214A8 /* PaymentCreationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCreationStore.swift; sourceTree = "<group>"; };
+		11DECA6428ABA41A005214A8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		11DECA6628ABA440005214A8 /* AmountInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountInputField.swift; sourceTree = "<group>"; };
+		11DECA6828ABA769005214A8 /* BasicDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDropDown.swift; sourceTree = "<group>"; };
+		11FDC2A228AD459E0014B895 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		A2E5B4A211D7607C18F514B2 /* Pods-RemindMyPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindMyPayments.release.xcconfig"; path = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments.release.xcconfig"; sourceTree = "<group>"; };
+		C026A86EF83DF5A1A1AB530C /* Pods-RemindMyPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindMyPayments.debug.xcconfig"; path = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments.debug.xcconfig"; sourceTree = "<group>"; };
+		D03A0B19FA62B3D9062D2323 /* Pods_RemindMyPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemindMyPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C46DC428A7BAFF00523383 /* ComposableArchitecture in Frameworks */,
+				C4848E3A14FB56D1409DECC9 /* Pods_RemindMyPayments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11363DCA28ABB97A00FD0B26 /* PaymentDetaillsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11363DCB28ABB99100FD0B26 /* PaymentDetailsScreen.swift */,
+				11363DCD28ABB9DA00FD0B26 /* PaymentDetailsStore.swift */,
+			);
+			path = PaymentDetaillsScreen;
+			sourceTree = "<group>";
+		};
 		11C46D8728A7BA2200523383 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +152,8 @@
 				11C46DA828A7BA2600523383 /* RemindMyPaymentsTests */,
 				11C46DB228A7BA2600523383 /* RemindMyPaymentsUITests */,
 				11C46D9128A7BA2200523383 /* Products */,
+				AABF1C5EF81369D46EA5F857 /* Pods */,
+				365EEA687235FA266B834DC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,22 +170,15 @@
 		11C46D9228A7BA2200523383 /* RemindMyPayments */ = {
 			isa = PBXGroup;
 			children = (
-				11C46D9328A7BA2200523383 /* RemindMyPaymentsApp.swift */,
-				11C46D9528A7BA2200523383 /* ContentView.swift */,
-				11C46D9728A7BA2500523383 /* Assets.xcassets */,
-				11C46D9C28A7BA2500523383 /* Persistence.swift */,
-				11C46D9E28A7BA2500523383 /* RemindMyPayments.xcdatamodeld */,
-				11C46D9928A7BA2500523383 /* Preview Content */,
+				11FDC2A128AD45900014B895 /* Managers */,
+				11DECA4A28A7FBA1005214A8 /* Extensions */,
+				11C46DCE28A7CDE800523383 /* Model */,
+				11C46DCD28A7CDDD00523383 /* Views */,
+				11C46DC528A7BC4F00523383 /* Screens */,
+				11C46DD928A7D1F600523383 /* SwiftGen */,
+				11C46DD128A7D04D00523383 /* Resources */,
 			);
 			path = RemindMyPayments;
-			sourceTree = "<group>";
-		};
-		11C46D9928A7BA2500523383 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				11C46D9A28A7BA2500523383 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		11C46DA828A7BA2600523383 /* RemindMyPaymentsTests */ = {
@@ -133,6 +198,137 @@
 			path = RemindMyPaymentsUITests;
 			sourceTree = "<group>";
 		};
+		11C46DC528A7BC4F00523383 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				11363DCA28ABB97A00FD0B26 /* PaymentDetaillsScreen */,
+				11DECA5F28AB9A87005214A8 /* PaymentCreationScreen */,
+				11DECA5A28AB8E48005214A8 /* DatePaymentsScreen */,
+				11DECA5328AB8552005214A8 /* SettingsScreen */,
+				11C46DCA28A7BCE700523383 /* CalendarScreen */,
+				11C46D9328A7BA2200523383 /* RemindMyPaymentsApp.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		11C46DCA28A7BCE700523383 /* CalendarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11C46DC628A7BC6400523383 /* CalendarScreen.swift */,
+				11C46DCB28A7BFE300523383 /* CalendarStore.swift */,
+				11363DD128ABF27A00FD0B26 /* PaymentStore.swift */,
+			);
+			path = CalendarScreen;
+			sourceTree = "<group>";
+		};
+		11C46DCD28A7CDDD00523383 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11C46DCF28A7CE1200523383 /* CalendarView.swift */,
+				11C46DE028A7DBDA00523383 /* TextStyle.swift */,
+				11DECA5828AB8D4D005214A8 /* HalfSheetView.swift */,
+				11DECA6428ABA41A005214A8 /* FloatingTextField.swift */,
+				11DECA6628ABA440005214A8 /* AmountInputField.swift */,
+				11DECA6828ABA769005214A8 /* BasicDropDown.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11C46DCE28A7CDE800523383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C46D9E28A7BA2500523383 /* RemindMyPayments.xcdatamodeld */,
+				11C46D9C28A7BA2500523383 /* Persistence.swift */,
+				11C46DDE28A7D6AC00523383 /* Payment + Extensions.swift */,
+				11DECA4828A7F330005214A8 /* CoreDataPublisher.swift */,
+				11DECA4F28AB8467005214A8 /* UserStorage.swift */,
+				11DECA5128AB849E005214A8 /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11C46DD128A7D04D00523383 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11C46DD228A7D07F00523383 /* Images.xcassets */,
+				11C46DD428A7D08900523383 /* Colors.xcassets */,
+				11C46DD628A7D09600523383 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11C46DD928A7D1F600523383 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				11C46DDB28A7D22800523383 /* Assets.swift */,
+				11C46DDA28A7D22800523383 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		11DECA4A28A7FBA1005214A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11DECA4B28A7FBAE005214A8 /* Collection + Extension.swift */,
+				11DECA4D28A802CB005214A8 /* Date + Extensions.swift */,
+				11363DCF28ABBB7100FD0B26 /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11DECA5328AB8552005214A8 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11DECA5428AB855D005214A8 /* SettingsScreen.swift */,
+				11DECA5628AB8566005214A8 /* SettingsStore.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		11DECA5A28AB8E48005214A8 /* DatePaymentsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11DECA5B28AB8E57005214A8 /* DatePaymentsScreen.swift */,
+				11DECA5D28AB8E65005214A8 /* DatePaymentsStore.swift */,
+			);
+			path = DatePaymentsScreen;
+			sourceTree = "<group>";
+		};
+		11DECA5F28AB9A87005214A8 /* PaymentCreationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11DECA6028AB9AA8005214A8 /* PaymentCreationScreen.swift */,
+				11DECA6228AB9ABB005214A8 /* PaymentCreationStore.swift */,
+			);
+			path = PaymentCreationScreen;
+			sourceTree = "<group>";
+		};
+		11FDC2A128AD45900014B895 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				11FDC2A228AD459E0014B895 /* PushNotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		365EEA687235FA266B834DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03A0B19FA62B3D9062D2323 /* Pods_RemindMyPayments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABF1C5EF81369D46EA5F857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C026A86EF83DF5A1A1AB530C /* Pods-RemindMyPayments.debug.xcconfig */,
+				A2E5B4A211D7607C18F514B2 /* Pods-RemindMyPayments.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,15 +336,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11C46DB928A7BA2600523383 /* Build configuration list for PBXNativeTarget "RemindMyPayments" */;
 			buildPhases = (
+				7B1784EC5D936B1F2299CCFB /* [CP] Check Pods Manifest.lock */,
 				11C46D8C28A7BA2200523383 /* Sources */,
 				11C46D8D28A7BA2200523383 /* Frameworks */,
 				11C46D8E28A7BA2200523383 /* Resources */,
+				11C46DD828A7D1B200523383 /* SwiftGen */,
+				DA59CFED30B1E715CC5AB084 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RemindMyPayments;
+			packageProductDependencies = (
+				11C46DC328A7BAFF00523383 /* ComposableArchitecture */,
+			);
 			productName = RemindMyPayments;
 			productReference = 11C46D9028A7BA2200523383 /* RemindMyPayments.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +423,9 @@
 				Base,
 			);
 			mainGroup = 11C46D8728A7BA2200523383;
+			packageReferences = (
+				11C46DC228A7BAFF00523383 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 11C46D9128A7BA2200523383 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +442,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C46D9B28A7BA2500523383 /* Preview Assets.xcassets in Resources */,
-				11C46D9828A7BA2500523383 /* Assets.xcassets in Resources */,
+				11C46DD328A7D07F00523383 /* Images.xcassets in Resources */,
+				11C46DD728A7D09600523383 /* Localizable.strings in Resources */,
+				11C46DD528A7D08900523383 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,15 +464,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11C46DD828A7D1B200523383 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n/opt/homebrew/bin/swiftgen config lint\n/opt/homebrew/bin/swiftgen config run \n";
+		};
+		7B1784EC5D936B1F2299CCFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemindMyPayments-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA59CFED30B1E715CC5AB084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11C46D8C28A7BA2200523383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DECA5C28AB8E57005214A8 /* DatePaymentsScreen.swift in Sources */,
+				11DECA6128AB9AA8005214A8 /* PaymentCreationScreen.swift in Sources */,
+				11DECA6928ABA769005214A8 /* BasicDropDown.swift in Sources */,
+				11DECA5528AB855D005214A8 /* SettingsScreen.swift in Sources */,
+				11DECA6328AB9ABB005214A8 /* PaymentCreationStore.swift in Sources */,
+				11DECA5E28AB8E65005214A8 /* DatePaymentsStore.swift in Sources */,
+				11363DD028ABBB7100FD0B26 /* String + Extensions.swift in Sources */,
+				11C46DE128A7DBDA00523383 /* TextStyle.swift in Sources */,
 				11C46D9D28A7BA2500523383 /* Persistence.swift in Sources */,
-				11C46D9628A7BA2200523383 /* ContentView.swift in Sources */,
+				11C46DC728A7BC6400523383 /* CalendarScreen.swift in Sources */,
+				11363DD228ABF27A00FD0B26 /* PaymentStore.swift in Sources */,
+				11363DCC28ABB99100FD0B26 /* PaymentDetailsScreen.swift in Sources */,
+				11FDC2A328AD459E0014B895 /* PushNotificationManager.swift in Sources */,
+				11C46DDD28A7D22800523383 /* Assets.swift in Sources */,
+				11DECA5928AB8D4D005214A8 /* HalfSheetView.swift in Sources */,
+				11DECA5028AB8467005214A8 /* UserStorage.swift in Sources */,
+				11C46DD028A7CE1200523383 /* CalendarView.swift in Sources */,
+				11DECA5228AB849E005214A8 /* Currency.swift in Sources */,
+				11DECA5728AB8566005214A8 /* SettingsStore.swift in Sources */,
+				11C46DDF28A7D6AC00523383 /* Payment + Extensions.swift in Sources */,
+				11DECA4928A7F330005214A8 /* CoreDataPublisher.swift in Sources */,
+				11DECA6528ABA41A005214A8 /* FloatingTextField.swift in Sources */,
+				11DECA6728ABA440005214A8 /* AmountInputField.swift in Sources */,
+				11DECA4C28A7FBAE005214A8 /* Collection + Extension.swift in Sources */,
+				11363DCE28ABB9DA00FD0B26 /* PaymentDetailsStore.swift in Sources */,
 				11C46D9428A7BA2200523383 /* RemindMyPaymentsApp.swift in Sources */,
+				11C46DCC28A7BFE300523383 /* CalendarStore.swift in Sources */,
 				11C46DA028A7BA2500523383 /* RemindMyPayments.xcdatamodeld in Sources */,
+				11DECA4E28A802CB005214A8 /* Date + Extensions.swift in Sources */,
+				11C46DDC28A7D22800523383 /* Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +711,13 @@
 		};
 		11C46DBA28A7BA2600523383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C026A86EF83DF5A1A1AB530C /* Pods-RemindMyPayments.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RemindMyPayments/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 554Q7AFJX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -448,12 +741,13 @@
 		};
 		11C46DBB28A7BA2600523383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E5B4A211D7607C18F514B2 /* Pods-RemindMyPayments.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RemindMyPayments/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 554Q7AFJX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -591,6 +885,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11C46DC228A7BAFF00523383 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11C46DC328A7BAFF00523383 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11C46DC228A7BAFF00523383 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		11C46D9E28A7BA2500523383 /* RemindMyPayments.xcdatamodeld */ = {

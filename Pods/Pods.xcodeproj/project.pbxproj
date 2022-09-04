@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16835A9A2A00577D2D8DC9D065A655BB /* DLNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A5D027476D083C87F6C3F71A9170 /* DLNotification.swift */; };
+		3CF81C9FF04A330D923BEE1774A576B7 /* DLLocalNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF1073B2EE414E885892A68D3D3D21F /* DLLocalNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E944875730F5D03A017B14C5B34C857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D8A209911F2E08A80064560B7FC0007 /* Pods-RemindMyPayments-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 471401C60AEB468A8E5518E0D1F82956 /* Pods-RemindMyPayments-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A4ADBCACAB1D93D5AAE5A56D02E8FF /* DLLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AECF807BE8D8BDD2624138355B9DADD /* DLLocalNotifications.swift */; };
+		C72483E28DA97DF3051F51D29DADB1E9 /* Pods-RemindMyPayments-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D03AF58EFD1DA61811CC9BADD5926 /* Pods-RemindMyPayments-dummy.m */; };
+		C77C3FF74FE8315F436E52BDE1378C07 /* DLLocalNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A0FF6836FA14F5156E71E7ABC0F9CB /* DLLocalNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D502F9BDC107F945E1E7915DFEFE5520 /* DLLocalNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E17538884B0D75CD9AEC52B22D27D3 /* DLLocalNotifications-dummy.m */; };
+		D83208A5C66719808CB6E97530DA32E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E8C6F9817EDB53236C2D269F0A38299F /* DLCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7033760B444497016C7C3B0B72CF9 /* DLCategory.swift */; };
+		FA13B269CDCCC4741ADDEEA0D895897F /* DLQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AABB97624AC8724E867CB39C705C34 /* DLQueue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2974D7C03F641E902FF8AF4BA1D37FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCB66E9CE288AFDB91AE336E89CE092;
+			remoteInfo = DLLocalNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05705A363FFDD7A5F52F8D2909060006 /* Pods-RemindMyPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RemindMyPayments.release.xcconfig"; sourceTree = "<group>"; };
+		0F4D03AF58EFD1DA61811CC9BADD5926 /* Pods-RemindMyPayments-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RemindMyPayments-dummy.m"; sourceTree = "<group>"; };
+		2DF1073B2EE414E885892A68D3D3D21F /* DLLocalNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLLocalNotifications.h; path = DLLocalNotifications/DLLocalNotifications.h; sourceTree = "<group>"; };
+		2E3154291506C469C83C7DDD543C851F /* Pods-RemindMyPayments-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RemindMyPayments-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3671784D46314C2B6E4C732F10729F42 /* DLLocalNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLLocalNotifications-prefix.pch"; sourceTree = "<group>"; };
+		3AECF807BE8D8BDD2624138355B9DADD /* DLLocalNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DLLocalNotifications.swift; path = DLLocalNotifications/DLLocalNotifications.swift; sourceTree = "<group>"; };
+		42B7033760B444497016C7C3B0B72CF9 /* DLCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DLCategory.swift; path = DLLocalNotifications/DLCategory.swift; sourceTree = "<group>"; };
+		45116596A8D737621667B8F5E3849DD9 /* Pods-RemindMyPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RemindMyPayments.debug.xcconfig"; sourceTree = "<group>"; };
+		471401C60AEB468A8E5518E0D1F82956 /* Pods-RemindMyPayments-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RemindMyPayments-umbrella.h"; sourceTree = "<group>"; };
+		4AD1A5D027476D083C87F6C3F71A9170 /* DLNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DLNotification.swift; path = DLLocalNotifications/DLNotification.swift; sourceTree = "<group>"; };
+		58E17538884B0D75CD9AEC52B22D27D3 /* DLLocalNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLLocalNotifications-dummy.m"; sourceTree = "<group>"; };
+		65A0FF6836FA14F5156E71E7ABC0F9CB /* DLLocalNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLLocalNotifications-umbrella.h"; sourceTree = "<group>"; };
+		6841785076E2C205B2EE57796EE704DA /* Pods-RemindMyPayments-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RemindMyPayments-frameworks.sh"; sourceTree = "<group>"; };
+		6E75BC700EAEBB31B250195613656872 /* Pods-RemindMyPayments */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RemindMyPayments"; path = Pods_RemindMyPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8142C8CDD834D815D8F694F1657988B7 /* DLLocalNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLLocalNotifications.release.xcconfig; sourceTree = "<group>"; };
+		98CF84581B43BD602D6D0BA041517243 /* DLLocalNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLLocalNotifications-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACBF6ECD449B9841B78CB74B24B75955 /* DLLocalNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLLocalNotifications.debug.xcconfig; sourceTree = "<group>"; };
+		B0AABB97624AC8724E867CB39C705C34 /* DLQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DLQueue.swift; path = DLLocalNotifications/DLQueue.swift; sourceTree = "<group>"; };
+		B48B46D233F88500DF0A7F3AAC6E9F41 /* Pods-RemindMyPayments-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RemindMyPayments-Info.plist"; sourceTree = "<group>"; };
+		C9BD77C5C1DA5D3A33C58E353CD9CB2A /* Pods-RemindMyPayments.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RemindMyPayments.modulemap"; sourceTree = "<group>"; };
+		CA53496660C263DA229F12B6179FE100 /* DLLocalNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLLocalNotifications.modulemap; sourceTree = "<group>"; };
+		E89BD484AF6D2D8899EAE69F9B9ABC8D /* Pods-RemindMyPayments-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RemindMyPayments-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB798814CB27E6A0CE0F9897AAF26A0A /* DLLocalNotifications */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLLocalNotifications; path = DLLocalNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8E0C033C21A3AE677AAC55799F38B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83208A5C66719808CB6E97530DA32E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126F472E0DB47E58CA3240D68A37272D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E944875730F5D03A017B14C5B34C857 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E75D3BF33A0A6D6E4224F20A25DBE58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A93077B82F7D75AEA2721A277C23676 /* Pods-RemindMyPayments */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11FD338544AFBD07B77CC874B24C1387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB798814CB27E6A0CE0F9897AAF26A0A /* DLLocalNotifications */,
+				6E75BC700EAEBB31B250195613656872 /* Pods-RemindMyPayments */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451774F47F2FB3786AB7FDFC5F512BCF /* DLLocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				42B7033760B444497016C7C3B0B72CF9 /* DLCategory.swift */,
+				2DF1073B2EE414E885892A68D3D3D21F /* DLLocalNotifications.h */,
+				3AECF807BE8D8BDD2624138355B9DADD /* DLLocalNotifications.swift */,
+				4AD1A5D027476D083C87F6C3F71A9170 /* DLNotification.swift */,
+				B0AABB97624AC8724E867CB39C705C34 /* DLQueue.swift */,
+				CE8226FEF89D738E52FFFE102B41125C /* Support Files */,
+			);
+			name = DLLocalNotifications;
+			path = DLLocalNotifications;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A93077B82F7D75AEA2721A277C23676 /* Pods-RemindMyPayments */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD77C5C1DA5D3A33C58E353CD9CB2A /* Pods-RemindMyPayments.modulemap */,
+				2E3154291506C469C83C7DDD543C851F /* Pods-RemindMyPayments-acknowledgements.markdown */,
+				E89BD484AF6D2D8899EAE69F9B9ABC8D /* Pods-RemindMyPayments-acknowledgements.plist */,
+				0F4D03AF58EFD1DA61811CC9BADD5926 /* Pods-RemindMyPayments-dummy.m */,
+				6841785076E2C205B2EE57796EE704DA /* Pods-RemindMyPayments-frameworks.sh */,
+				B48B46D233F88500DF0A7F3AAC6E9F41 /* Pods-RemindMyPayments-Info.plist */,
+				471401C60AEB468A8E5518E0D1F82956 /* Pods-RemindMyPayments-umbrella.h */,
+				45116596A8D737621667B8F5E3849DD9 /* Pods-RemindMyPayments.debug.xcconfig */,
+				05705A363FFDD7A5F52F8D2909060006 /* Pods-RemindMyPayments.release.xcconfig */,
+			);
+			name = "Pods-RemindMyPayments";
+			path = "Target Support Files/Pods-RemindMyPayments";
+			sourceTree = "<group>";
+		};
+		ACD37D0AE9C611C2569062DEA952A7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				451774F47F2FB3786AB7FDFC5F512BCF /* DLLocalNotifications */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE8226FEF89D738E52FFFE102B41125C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA53496660C263DA229F12B6179FE100 /* DLLocalNotifications.modulemap */,
+				58E17538884B0D75CD9AEC52B22D27D3 /* DLLocalNotifications-dummy.m */,
+				98CF84581B43BD602D6D0BA041517243 /* DLLocalNotifications-Info.plist */,
+				3671784D46314C2B6E4C732F10729F42 /* DLLocalNotifications-prefix.pch */,
+				65A0FF6836FA14F5156E71E7ABC0F9CB /* DLLocalNotifications-umbrella.h */,
+				ACBF6ECD449B9841B78CB74B24B75955 /* DLLocalNotifications.debug.xcconfig */,
+				8142C8CDD834D815D8F694F1657988B7 /* DLLocalNotifications.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLLocalNotifications";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ACD37D0AE9C611C2569062DEA952A7CF /* Pods */,
+				11FD338544AFBD07B77CC874B24C1387 /* Products */,
+				0E75D3BF33A0A6D6E4224F20A25DBE58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E03F56F79F8A4EA6F2DC3F632C3AA85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF81C9FF04A330D923BEE1774A576B7 /* DLLocalNotifications.h in Headers */,
+				C77C3FF74FE8315F436E52BDE1378C07 /* DLLocalNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447389676896D11489685F21763B4745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A209911F2E08A80064560B7FC0007 /* Pods-RemindMyPayments-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DCB66E9CE288AFDB91AE336E89CE092 /* DLLocalNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52F833FB3FEDEA6FB2519374A68923A /* Build configuration list for PBXNativeTarget "DLLocalNotifications" */;
+			buildPhases = (
+				1E03F56F79F8A4EA6F2DC3F632C3AA85 /* Headers */,
+				6E69BE2F6F1E25E7D9EE4151ADC920BA /* Sources */,
+				0B8E0C033C21A3AE677AAC55799F38B1 /* Frameworks */,
+				27B14A605F638D374FA3E0FFC87252E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLLocalNotifications;
+			productName = DLLocalNotifications;
+			productReference = EB798814CB27E6A0CE0F9897AAF26A0A /* DLLocalNotifications */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFAD48AE9655CE887D544C2B3E1ECE1C /* Pods-RemindMyPayments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301D594448357844487224A8C7CEE490 /* Build configuration list for PBXNativeTarget "Pods-RemindMyPayments" */;
+			buildPhases = (
+				447389676896D11489685F21763B4745 /* Headers */,
+				FD85B1BAEC02153A5B17C2C23903FEFC /* Sources */,
+				126F472E0DB47E58CA3240D68A37272D /* Frameworks */,
+				294ACB34E9C7CF21F1EA411128A69BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B626BA2F01D1F9132E3C415F6D66E003 /* PBXTargetDependency */,
+			);
+			name = "Pods-RemindMyPayments";
+			productName = Pods_RemindMyPayments;
+			productReference = 6E75BC700EAEBB31B250195613656872 /* Pods-RemindMyPayments */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 11FD338544AFBD07B77CC874B24C1387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DCB66E9CE288AFDB91AE336E89CE092 /* DLLocalNotifications */,
+				FFAD48AE9655CE887D544C2B3E1ECE1C /* Pods-RemindMyPayments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B14A605F638D374FA3E0FFC87252E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294ACB34E9C7CF21F1EA411128A69BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E69BE2F6F1E25E7D9EE4151ADC920BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C6F9817EDB53236C2D269F0A38299F /* DLCategory.swift in Sources */,
+				A4A4ADBCACAB1D93D5AAE5A56D02E8FF /* DLLocalNotifications.swift in Sources */,
+				D502F9BDC107F945E1E7915DFEFE5520 /* DLLocalNotifications-dummy.m in Sources */,
+				16835A9A2A00577D2D8DC9D065A655BB /* DLNotification.swift in Sources */,
+				FA13B269CDCCC4741ADDEEA0D895897F /* DLQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD85B1BAEC02153A5B17C2C23903FEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72483E28DA97DF3051F51D29DADB1E9 /* Pods-RemindMyPayments-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B626BA2F01D1F9132E3C415F6D66E003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLLocalNotifications;
+			target = 0DCB66E9CE288AFDB91AE336E89CE092 /* DLLocalNotifications */;
+			targetProxy = C2974D7C03F641E902FF8AF4BA1D37FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		283405B7251E8AE84F6994F666FE064A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8142C8CDD834D815D8F694F1657988B7 /* DLLocalNotifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLLocalNotifications/DLLocalNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLLocalNotifications/DLLocalNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLLocalNotifications/DLLocalNotifications.modulemap";
+				PRODUCT_MODULE_NAME = DLLocalNotifications;
+				PRODUCT_NAME = DLLocalNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2ED6F196F5157AF0B495A37489043414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBF6ECD449B9841B78CB74B24B75955 /* DLLocalNotifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLLocalNotifications/DLLocalNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLLocalNotifications/DLLocalNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLLocalNotifications/DLLocalNotifications.modulemap";
+				PRODUCT_MODULE_NAME = DLLocalNotifications;
+				PRODUCT_NAME = DLLocalNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9958F96FADD84201D0806A72E3236F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05705A363FFDD7A5F52F8D2909060006 /* Pods-RemindMyPayments.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED3EDC57D60F1B6C37AC59602C139B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45116596A8D737621667B8F5E3849DD9 /* Pods-RemindMyPayments.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RemindMyPayments/Pods-RemindMyPayments.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301D594448357844487224A8C7CEE490 /* Build configuration list for PBXNativeTarget "Pods-RemindMyPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3EDC57D60F1B6C37AC59602C139B00 /* Debug */,
+				A9958F96FADD84201D0806A72E3236F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52F833FB3FEDEA6FB2519374A68923A /* Build configuration list for PBXNativeTarget "DLLocalNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED6F196F5157AF0B495A37489043414 /* Debug */,
+				283405B7251E8AE84F6994F666FE064A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

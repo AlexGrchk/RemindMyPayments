@@ -1,0 +1,16 @@
+PODS:
+  - DLLocalNotifications (0.09)
+
+DEPENDENCIES:
+  - DLLocalNotifications
+
+SPEC REPOS:
+  trunk:
+    - DLLocalNotifications
+
+SPEC CHECKSUMS:
+  DLLocalNotifications: 4c81c059c8a890b5a4bf79e5e4d4c8ff26e8500c
+
+PODFILE CHECKSUM: a33784b053441adcaa0f98022f13b6911cbf19c5
+
+COCOAPODS: 1.11.3

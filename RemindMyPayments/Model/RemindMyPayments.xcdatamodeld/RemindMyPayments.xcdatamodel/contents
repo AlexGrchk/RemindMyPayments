@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Payment" representedClassName="Payment" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bankAccountName" optional="YES" attributeType="String"/>
+        <attribute name="currency" attributeType="String" defaultValueString=""/>
+        <attribute name="dateCreated" attributeType="Date" defaultDateTimeInterval="682084980" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="paymentDay" optional="YES" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="wasDeleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <relationship name="statuses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PaymentStatus" inverseName="payment" inverseEntity="PaymentStatus"/>
+    </entity>
+    <entity name="PaymentStatus" representedClassName="PaymentStatus" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="paymentDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="payment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Payment" inverseName="statuses" inverseEntity="Payment"/>
+    </entity>
+    <elements>
+        <element name="Payment" positionX="-63" positionY="-18" width="128" height="164"/>
+        <element name="PaymentStatus" positionX="-54" positionY="54" width="128" height="74"/>
+    </elements>
+</model>

@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  RemindMyPayments
+
+  Created by Oleksandr on 13.08.2022.
+  
+*/
+
+
+"test" = "Test";
+"amount" = "Amount";
+"description" = "Description";
+"date" = "Date";
+"bankAccountName" = "Bank account name";
+"firstDayOfMonth" = "First day of month";
+"lastDayOfMonth" = "Last day of month";
+"custom" = "Custom";
+"create" = "Create";
+"done" = "Done";
+"newPayment" = "New payment";
+"pleaseSelectDayOfMonth" = "Please select day of month";
+"valueIsRequired" = "Value is required";
+"days" = "Days";
+"left" = "left";
+"ago" = "ago";
+"main" = "Main";
+"delete" = "Delete";
+"day" = "Day";
+"usd" = "United States Dollar";
+"eur" = "Euro";
+"jpy" = "Japanese yen";
+"gbp" = "Sterling";
+"aud" = "Australian dollar";
+"cad" = "Canadian dollar";
+"chf" = "Swiss franc";
+"cny" = "Renminbi";
+"hkd" = "Hong Kong dollar";
+"nzd" = "New Zealand dollar";
+"sek" = "Swedish krona";
+"krw" = "South Korean won";
+"sgd" = "Singapore dollar";
+"nok" = "Norwegian krone";
+"mxn" = "Mexican peso";
+"inr" = "Indian rupee";
+"rub" = "Russian ruble";
+"zar" = "South African rand";
+"try" = "Turkish lira";
+"brl" = "Brazilian real";
+"twd" = "New Taiwan dollar";
+"dkk" = "Danish krone";
+"pln" = "Polish zloty";
+"thb" = "Thai baht";
+"idr" = "Indonesian rupiah";
+"huf" = "Hungarian forint";
+"czk" = "Czech koruna";
+"markAsPayed" = "Mark as payed";
+"markAsNotPayed" = "Mark as not payed";
+"viewDetails" = "View details";
+"edit" = "Edit";
+"everyDayOfMonth" = "Every [day] of month";
+"paymentDetails" = "Payment details";
+"close" = "Close";
+"delete" = "Delete";
+"dontForgetToPay" = "Don't forget to pay!";
+"tomorrow" = "Tomorrow";
+"payedOn" = "Payed on";
+"notPayed" = "Not payed";
+"history" = "History";
+"today" = "Today";
+"settings" = "Settings";
+"baseCurrency" = "Base currency";
+"calendar" = "Calendar";
+"youDontHavePayments" = "You don't have payments";
+"pressPlussButton" = "Hit + button to add new payment";
+"cancel" = "Cancel";
